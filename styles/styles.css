@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #190061; */
+    background-color: #282828;
+    font-family: 'Montserrat', cursive;
+    margin-bottom: 50px;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #0C0032;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    color: #FFF;
+    background-color: #0C0032;
+}
+
+header > p {
+    color: #FFF;
+    font-family: 'Press Start 2P', cursive;
+}
+
+main > .content {
+    padding: 1em;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    height: 100%;
+    border: 5px solid #3500D3;
+    background-color: #240090;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item > a {
+    padding: 0.5em;
+}
+
+.nav-item > a:hover {
+    color: #3500D3;
+}
+
+.nav-item.contact > a {
+    border: 2px solid #3500D3;
+    border-radius: 10px;
+}
+
+.nav-item.contact > a:hover {
+    background-color: #3500D3;
+    color: #FFF;
+}
+
+.nav-item.footer > a {
+    padding: 0 1em 0 0;
+}
+
+/* main */
+.content {
+}
+
+.grid-container {
+    display: grid;
+    padding: 1em;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item > img {
+    height: 100%;
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+    filter: grayscale(100%);
+}
+
+.grid-item > img:hover {
+    filter: none;
+}
+
+.grid-item {
+    background-color: #282828;
+    margin: 1em;
+}
+
+.grid-item.item4 {
+    grid-column: 1
+}
+
+.grid-item.item5 {
+    grid-column: 2 / span 3;
+}
+
+/* blog */
+
+.blog-container {
+    display: grid;
+    grid-row-gap: 1em;
+}
+
+.blog-container > .blog-item {
+    padding: 1em;
+    border: 1px solid #3500D3;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+.blog-container > .blog-item:nth-child(even) {
+    background-color: #D4D4D4;
+}
+
+.blog-item > .head-flex {
+    display: flex;
+    justify-content: space-between;
+}
