@@ -15,17 +15,22 @@ body {
 li, a, button {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: #edf0f1;
+    color: #FFF;
     text-decoration: none;
 }
 
-header {
+.top-bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 1em;
     background-color: #0C0032;
+}
+
+.top-bar > a {
+    color: #FFF;
+    font-family: 'Press Start 2P', cursive;
 }
 
 footer {
@@ -41,12 +46,7 @@ footer {
     background-color: #0C0032;
 }
 
-header > p {
-    color: #FFF;
-    font-family: 'Press Start 2P', cursive;
-}
-
-main > .content {
+header > .scripted-header {
     padding: 1em;
     font-weight: bold;
     font-size: 2em;
