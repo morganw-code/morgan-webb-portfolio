@@ -12,7 +12,7 @@ body {
     margin-bottom: 50px;
 }
 
-li, a, button {
+li, a {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #FFF;
@@ -140,4 +140,54 @@ header > .scripted-header {
 .blog-item > .head-flex {
     display: flex;
     justify-content: space-between;
+}
+
+/* projects */
+
+.projects-flex {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.projects-flex > .projects-item {
+    border: 1px solid #FFF;
+    background: #f0f0f0;
+    border-radius: 15px;
+    width: 50%;
+    height: 100%;
+    margin: 1em 0 1em 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.projects-flex > .projects-item:nth-child(even) {
+    background: #D4D4D4;
+}
+
+.projects-item > .mask {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.mask > img {
+    border-radius: 10px;
+    max-width:100%;
+    max-height:100%;
+    margin-top: 1em;
+}
+
+.projects-item > .button {
+    border: 2px solid #3500D3;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.button > a {
+    color: #000;
+    padding: 0.5em;
 }
