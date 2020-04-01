@@ -104,6 +104,7 @@ header > .scripted-header {
 
 .grid-item > img:hover {
     filter: none;
+    transition: 0.5s;
 }
 
 .grid-item {
@@ -193,4 +194,63 @@ header > .scripted-header {
     background-color: #3500D3;
     color: #FFF;
     transition: 0.5s;
+}
+
+/* about */
+.about-container > .flex-container {
+    display: flex;
+    border: 1px solid white;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.flex-container > .flex-item {
+    width: 100%;
+    background-color: grey;
+    padding: 1em;
+}
+
+.bio-grid {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+
+.bio-grid-item {
+    height: 100%;
+}
+
+.bio-grid-item > ul, .flex-item > ul {
+    list-style-type: none;
+}
+
+.bio-grid-item > img {
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* contact */
+.contact-container {
+    width: 100%;
+    padding: 1em;
+}
+
+.contact-me {
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    background-color: grey;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+    color: #FFF;
+}
+
+.contact-inner {
+    padding: 1em;
+    height: 90%;
+    background-color: white;
+    color: #000;
 }

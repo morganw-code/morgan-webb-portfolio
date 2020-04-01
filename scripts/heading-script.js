@@ -26,10 +26,10 @@ async function ghost_type() {
             break;
         case "about.html":
             to_type = "You can learn about me here.";
-        break;
+            break;
         case "contact.html":
             to_type = "You can find my contact information here.";
-        break;
+            break;
     }
 
     for(char of to_type) {
