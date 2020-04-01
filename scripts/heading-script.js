@@ -18,9 +18,6 @@ async function ghost_type() {
     elem.textContent = null;
 
     switch(current_doc) {
-        case "index.html":
-            to_type = "Hello, World! My name is Morgan.";
-            break;
         case "projects.html":
             to_type = "Here are some of my projects!";
             break;
@@ -29,6 +26,9 @@ async function ghost_type() {
             break;
         case "contact.html":
             to_type = "You can find my contact information here.";
+            break;
+        default:
+            to_type = "Hello, World! My name is Morgan.";
             break;
     }
 
