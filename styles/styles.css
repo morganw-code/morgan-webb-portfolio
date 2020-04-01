@@ -154,17 +154,13 @@ header > .scripted-header {
 
 .projects-flex > .projects-item {
     border: 1px solid #FFF;
-    background: #f0f0f0;
+    background-color: grey;
     border-radius: 15px;
     width: 50%;
     height: 100%;
     margin: 1em 0 1em 0;
     padding: 1em;
     text-align: center;
-}
-
-.projects-flex > .projects-item:nth-child(even) {
-    background: #D4D4D4;
 }
 
 .projects-item > .mask {
@@ -251,6 +247,5 @@ header > .scripted-header {
 .contact-inner {
     padding: 1em;
     height: 90%;
-    background-color: white;
     color: #000;
 }
