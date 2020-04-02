@@ -17,7 +17,7 @@ The purpose of this project was to create a personal portfolio that can be acces
 
 #### Consistent Style
 
-Webpages across my portfolio website use consistent styling like navbar, footer, etc, and there are different styles for different branches of my portfolio, with each version having its own theme.
+Webpages across my portfolio website use consistent styling like the navbar, footer, etc, and there are different styles for different branches of my portfolio, with each version having its own theme.
 
 #### Scripted Header Bar
 
@@ -55,7 +55,7 @@ The target audience for my portfolio are people who wish to learn more about mys
 
 ## Technology Stack
 
-Technologies used in the creation of my portfolio follow:
+Technologies used in the creation of my portfolio:
 - HTML
 - CSS
 - JavaScript

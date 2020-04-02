@@ -206,6 +206,15 @@ header > .scripted-header {
     padding: 1em;
 }
 
+.flex-container > .flex-item:nth-child(odd) {
+    background-color: rgba(128, 128, 128, 0.9);
+}
+
+.flex-item > h1, h2 {
+    color: #fff;
+    text-decoration: underline;
+}
+
 .bio-grid {
     display: grid;
     grid-template-rows: 2fr 1fr;
