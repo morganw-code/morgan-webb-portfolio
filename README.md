@@ -17,7 +17,7 @@ The purpose of this project was to create a personal portfolio that can be acces
 
 #### Consistent Style
 
-Webpages across my portfolio website use consistent styling. There are different styles for different branches of my portfolio with each version having its own theme.
+Webpages across my portfolio website use consistent styling like navbar, footer, etc, and there are different styles for different branches of my portfolio, with each version having its own theme.
 
 #### Scripted Header Bar
 
@@ -25,7 +25,7 @@ I utilise JavaScript to create a little ghost-typing gimmick that displays a dif
 
 #### Responsiveness
 
-My portfolio should display decently across all modern devices. My portfolio utilises things like flexbox to give the layout more flexibility.
+My portfolio should display decently across all modern devices. My portfolio utilises things like flexbox, wrapping, etc to give the layout more flexibility regardless of screen size.
 
 #### Different Versions / Branches
 
@@ -36,8 +36,27 @@ My portfolio has three different themes:
  
 #### Subresource Integrity
 
-My portfolio website checks the RSA integrity of all externally linked resources before they're loaded to ensure that each resource is safe to help mitigate any security issues.
+My portfolio website checks the SHA integrity of all externally linked resources before they're loaded to ensure that each resource is safe to help mitigate any security issues.
 
 ## Sitemap
 
 ![Portfolio sitemap](/docs/sitemap.png)
+
+## Screenshots
+
+![Portfolio home page](/docs/home.png)
+![Portfolio projects page](/docs/projects.png)
+![Portfolio about page](/docs/about.png)
+![Portfolio contact page](/docs/contact.png)
+
+## Target Audience
+
+The target audience for my portfolio are people who wish to learn more about myself, what I do, etc.
+
+## Technology Stack
+
+Technologies used in the creation of my portfolio follow:
+- HTML
+- CSS
+- JavaScript
+- GitHub (for hosting project repository and live version of site)
